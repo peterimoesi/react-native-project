@@ -1,0 +1,29 @@
+{
+  "name": "vex-backend",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@bitbucket.org:vex-front/vex-back.git",
+  "author": "Peter Imoesi <peterimoesi@yahoo.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon index.js"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "4.7.7",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
